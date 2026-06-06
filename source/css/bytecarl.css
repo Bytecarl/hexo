@@ -18,10 +18,8 @@ html {
 body {
   color: var(--bytecarl-ink);
   background:
-    radial-gradient(circle at 12% 16%, rgba(20, 184, 166, 0.16), transparent 28rem),
-    radial-gradient(circle at 86% 10%, rgba(249, 115, 22, 0.14), transparent 26rem),
-    radial-gradient(circle at 82% 78%, rgba(37, 99, 235, 0.12), transparent 30rem),
-    url("/img/modern-bg.svg") center / cover fixed;
+    linear-gradient(rgba(7, 12, 28, 0.08), rgba(7, 12, 28, 0.22)),
+    url("/img/tech-crystal-bg.png") center / cover fixed;
 }
 
 body::before {
@@ -31,8 +29,8 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.72)),
-    repeating-linear-gradient(90deg, rgba(15, 23, 42, 0.025) 0 1px, transparent 1px 96px);
+    linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.64)),
+    repeating-linear-gradient(90deg, rgba(20, 184, 166, 0.035) 0 1px, transparent 1px 96px);
 }
 
 ::selection {
@@ -45,7 +43,7 @@ body::before {
 }
 
 #page-header::before {
-  background: linear-gradient(120deg, rgba(9, 16, 30, 0.42), rgba(8, 18, 36, 0.08) 58%, rgba(255, 255, 255, 0.22));
+  background: linear-gradient(120deg, rgba(4, 9, 24, 0.5), rgba(8, 18, 36, 0.12) 58%, rgba(117, 255, 240, 0.08));
 }
 
 #page-header.full_page {
@@ -213,9 +211,8 @@ hr {
 [data-theme="dark"] body {
   color: #dbe7f5;
   background:
-    radial-gradient(circle at 12% 14%, rgba(20, 184, 166, 0.14), transparent 28rem),
-    radial-gradient(circle at 84% 12%, rgba(249, 115, 22, 0.12), transparent 26rem),
-    linear-gradient(135deg, #0b1220, #101827 54%, #111827);
+    linear-gradient(rgba(4, 9, 24, 0.18), rgba(4, 9, 24, 0.48)),
+    url("/img/tech-crystal-bg.png") center / cover fixed;
 }
 
 [data-theme="dark"] body::before {

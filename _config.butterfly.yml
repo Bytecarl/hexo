@@ -68,10 +68,10 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/modern-bg.svg
+default_top_img: /img/tech-crystal-bg.png
 
 # The banner image of index page
-index_img: /img/modern-bg.svg
+index_img: /img/tech-crystal-bg.png
 
 # The banner image of archive page
 archive_img:
@@ -98,7 +98,7 @@ footer_img: false
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
-background: /img/modern-bg.svg
+background: /img/tech-crystal-bg.png
 
 cover:
   # Disable the cover or not
